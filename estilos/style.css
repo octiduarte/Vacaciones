@@ -1,0 +1,64 @@
+html{
+    background-color: black;
+    font-family: 'Asap';
+}
+
+.burger-icon {
+    display: none;
+    cursor: pointer;
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+.line {
+    height: 3px;
+    width: 25px;
+    background-color: #e6e6e6;
+    margin: 5px 0;
+}
+
+.menu-izquierda{
+    display: flex;
+}
+
+.menu-derecha{
+    display: flex;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    display: block;
+    color: #e6e6e6;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.menu a:hover {
+    background-color: #171717;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .burger-icon {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu li {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}
