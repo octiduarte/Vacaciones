@@ -1,6 +1,8 @@
 html{
     background-color: black;
-    font-family: 'Asap';
+    font-family: 'Red Hat Mono', monospace;
+    color: #e6e6e6;
+
 }
 
 .burger-icon {
@@ -41,9 +43,31 @@ html{
 
 .menu a:hover {
     background-color: #171717;
+    
+}
+
+.div_registro{
+    background-color: #171717;
+    padding: 50px 100px 50px 100px;
     border-radius: 10px;
 }
 
+.contenedor_registro{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.div_interno_form{
+    
+}
+
+input{
+    width: 22rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    font-size: 20px;
+}
 
 @media screen and (max-width: 600px) {
     .burger-icon {
